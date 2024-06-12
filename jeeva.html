@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Leave Application Form</title>
+</head>
+<body>
+    <h1>Leave Application Form</h1>
+    <form action="welcome.php" method="post">
+        <label for="StudentName">Student name:</label>
+        <input type="text" id="student name" name="StudentName" required><br><br>
+
+        <label for="leaveType">Leave Type:</label>
+        <input type="text" id="leaveType" name="leaveType" required><br><br>
+
+        <label for="numberOfDays">Number of Days:</label>
+        <input type="number" id="numberOfDays" name="numberOfDays" required><br><br>
+
+        <label for="startDate">Start Date:</label>
+        <input type="date" id="startDate" name="startDate" required><br><br>
+
+        <label for="endDate">End Date:</label>
+        <input type="date" id="endDate" name="endDate" required><br><br>
+
+        <label for="reason">Reason for Leave:</label><br>
+        <textarea id="reason" name="reason" rows="4" required></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leave Application Form</title>
+    <style>
+        body {
+            background-image: url('background.jpg'); /* Replace 'your_background_image.jpg' with the path to your background image */
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #fff; /* Set text color to white or any other color that contrasts well with your background */
+        }
+
+        form {
+            background-color: rgba(255, 255, 255, 0.8); /* Set a semi-transparent white background for the form */
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50; /* Set a background color for the submit button */
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leave Application Form</title>
+    <style>
+        /* Your existing styles here... */
+
+        /* New styles for login form */
+        .login-container {
+            width: 300px;
+            margin: 100px auto;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .login-container label, .login-container input {
+            width: 100%;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        .login-container input[type="submit"] {
+            background-color: #4CAF50;
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Login Form -->
+    <div class="login-container">
+        <h1>Login</h1>
+        <form action="login.php" method="post">
+            <label for="adminUsername">Admin Username:</label>
+            <input type="text" id="adminUsername" name="adminUsername" required><br>
+
+            <label for="adminPassword">Admin Password:</label>
+            <input type="password" id="adminPassword" name="adminPassword" required><br>
+
+            <input type="submit" value="Login">
+        </form>
+    </div>
+
+    <!-- Leave Application Form -->
+    
+    <form action="welcome.php" method="post">
+        <!-- Your existing form code here... -->
+    </form>
+
+    <!-- Your existing styles here... -->
+</body>
+</html>
